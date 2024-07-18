@@ -1,0 +1,55 @@
+/* Change the font size & color */
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 1.5em; /* Replace with your desired color */
+}
+/* Change the background color of the navbar on hover */
+.navbar-nav .nav-item:hover {
+    background-color: lightskyblue; /* Replace with your desired color */
+}
+/* Change the color of the navbar links on hover */
+.navbar-nav .nav-link:hover {
+    color: whitesmoke; /* Replace with your desired color */
+}        
+.custom-profile-container {
+    padding: 10px 0;
+}
+
+body {
+    margin: 0; /* Removes any default margin around the body */
+    padding: 0; /* Removes any default padding around the body */
+    width: 100%; /* Ensures the body takes up the full width of the screen */
+}
+.banner {
+    background-image: url('../images/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    padding : 250px 0;
+}
+.banner h2 {
+    color: yellow;
+    border-color: black;
+    border: solid;
+    background: none;
+    padding: 10px 60px 10px 20px;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 1000;
+    float: right;
+}
+
+.contact-list ul {
+    list-style: none;
+}
+.contact-list li img {
+    float: left;
+    margin-right: 20px;
+}
+
+/* 
+img {
+    max-width: 100%;
+} */
